@@ -1,0 +1,41 @@
+
+body{
+    background-image: url(Watch.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   min-height: 100vh;
+   flex-direction: column;
+}
+
+.container{
+    padding: 1rem;
+    height: 200px;
+    max-width: 300px;
+    text-align: center;
+    position: relative;
+    border-radius: 10px;
+    background-color: rgba(0,0,0,0.6);
+
+}
+
+h1{
+    
+    color: #ffff;
+}
+
+button{
+    padding: 0.4rem 1rem;
+    margin: 0 0.2rem;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 1px solid #ffff;
+}
+
+button:hover{
+      background-color: rgba(0,0,0,0.4);
+      color: #ffff;
+
+}
